@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Sep 04 11:07:13 2016
+# Process ID: 7708
+# Log file: E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/spartan6_first/planAhead_run_1/planAhead.log
+# Journal file: E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/spartan6_first/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/spartan6_first/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P35 [get_ports {B[3]}]
+endgroup
+startgroup
+set_property package_pin P34 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin P33 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin P30 [get_ports {G[3]}]
+endgroup
+startgroup
+set_property package_pin P29 [get_ports {G[2]}]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports {G[1]}]
+endgroup
+startgroup
+set_property package_pin P26 [get_ports {G[0]}]
+endgroup
+startgroup
+set_property package_pin P24 [get_ports {R[3]}]
+endgroup
+startgroup
+set_property package_pin P23 [get_ports {R[2]}]
+endgroup
+startgroup
+set_property package_pin P22 [get_ports {R[1]}]
+endgroup
+startgroup
+set_property package_pin P21 [get_ports {R[0]}]
+endgroup
+startgroup
+set_property package_pin P123 [get_ports CLKI]
+endgroup
+startgroup
+set_property package_pin P10 [get_ports hsync]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports vsync]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {B[3]} {B[2]} {B[1]} {B[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {G[3]} {G[2]} {G[1]} {G[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {R[3]} {R[2]} {R[1]} {R[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list CLKI]]
+set_property iostandard LVCMOS33 [get_ports [list hsync]]
+set_property iostandard LVCMOS33 [get_ports [list vsync]]
+save_constraints

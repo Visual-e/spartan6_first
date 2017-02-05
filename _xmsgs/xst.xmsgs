@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first\hvsync.v" Line 78: Assignment to <arg fmt="%s" index="1">visible</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first\hvsync.v" Line 79: Assignment to <arg fmt="%s" index="1">rvisible</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first\hvsync.v" Line 80: Assignment to <arg fmt="%s" index="1">gvisible</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first\hvsync.v" Line 81: Assignment to <arg fmt="%s" index="1">bvisible</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first\hvsync.v" Line 105: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first\hvsync.v" Line 106: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first\hvsync.v" Line 107: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first\ipcore_dir\clk_wiz_v3_6.v" Line 126: Assignment to <arg fmt="%s" index="1">locked_int</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first\ipcore_dir\clk_wiz_v3_6.v" Line 127: Assignment to <arg fmt="%s" index="1">status_int</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

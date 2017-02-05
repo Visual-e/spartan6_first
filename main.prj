@@ -1,0 +1,3 @@
+verilog work "ipcore_dir/clk_wiz_v3_6.v"
+verilog work "hvsync.v"
+verilog work "main.vf"

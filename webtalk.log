@@ -1,0 +1,16 @@
+Release 14.7 - WebTalk (P.20131013)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Project Information
+--------------------
+ProjectID=F8EE619F09A5454BA01B03DDBFDEC0EF
+ProjectIteration=4
+
+WebTalk Summary
+----------------
+INFO:WebTalk:1 - WebTalk is enabled because you are using a WebPACK license.
+
+INFO:WebTalk:8 - WebTalk Install setting is ON.
+INFO:WebTalk:6 - WebTalk User setting is ON.
+
+INFO:WebTalk:4 - E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/spartan6_first/usage_statistics_webtalk.html WebTalk report has been successfully sent to Xilinx on 2016-09-04T13:27:21.  For additional details about this file, please refer to the WebTalk help file at D:/dev/xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html

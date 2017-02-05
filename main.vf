@@ -1,0 +1,47 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : main.vf
+// /___/   /\     Timestamp : 09/04/2016 11:07:03
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/spartan6_first/main.vf -w E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/spartan6_first/main.sch
+//Design Name: main
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module main(CLKI, 
+            B, 
+            G, 
+            hsync, 
+            R, 
+            vsync);
+
+    input CLKI;
+   output [3:0] B;
+   output [3:0] G;
+   output hsync;
+   output [3:0] R;
+   output vsync;
+   
+   wire XLXN_1;
+   
+   hvsync  XLXI_1 (.pixel_clock(XLXN_1), 
+                  .b(B[3:0]), 
+                  .g(G[3:0]), 
+                  .hsync(hsync), 
+                  .r(R[3:0]), 
+                  .vsync(vsync));
+   clk_wiz_v3_6  XLXI_2 (.CLK_IN1(CLKI), 
+                        .CLK_OUT1(XLXN_1));
+endmodule

@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Sep 04 13:25:44 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "B<0>" LOCATE = SITE "P32" LEVEL 1;
+COMP "B<1>" LOCATE = SITE "P33" LEVEL 1;
+COMP "B<2>" LOCATE = SITE "P34" LEVEL 1;
+COMP "B<3>" LOCATE = SITE "P35" LEVEL 1;
+COMP "R<0>" LOCATE = SITE "P21" LEVEL 1;
+COMP "R<1>" LOCATE = SITE "P22" LEVEL 1;
+COMP "R<2>" LOCATE = SITE "P23" LEVEL 1;
+COMP "R<3>" LOCATE = SITE "P24" LEVEL 1;
+COMP "CLKI" LOCATE = SITE "P123" LEVEL 1;
+COMP "hsync" LOCATE = SITE "P10" LEVEL 1;
+COMP "G<0>" LOCATE = SITE "P26" LEVEL 1;
+COMP "G<1>" LOCATE = SITE "P27" LEVEL 1;
+COMP "G<2>" LOCATE = SITE "P29" LEVEL 1;
+COMP "G<3>" LOCATE = SITE "P30" LEVEL 1;
+COMP "vsync" LOCATE = SITE "P9" LEVEL 1;
+SCHEMATIC END;
+

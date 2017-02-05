@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first\main.ncd
+OUTFILE=E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first\main.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=E:\projects\prj_fpga_xilinx\prj_VE-XC6SLX9\xc6_prj\projects\spartan6_first
+LICENSE=WebPack
+USER_INFO=211218651_0_0_453

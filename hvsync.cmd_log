@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/spartan6_first/hvsync.v -lang verilog -prj spartan6_first -o hvsync.spl -module hvsync -template D:/dev/xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 hvsync.spl E:/projects/prj_fpga_xilinx/prj_VE-XC6SLX9/xc6_prj/projects/spartan6_first/hvsync.sym 

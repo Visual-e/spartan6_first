@@ -1,0 +1,8 @@
+[Inputs]
+CLK_IN1
+[Outputs]
+CLK_OUT1
+[BiDir]
+[ATTRIBUTES]
+VeriModel clk_wiz_v3_6
+
